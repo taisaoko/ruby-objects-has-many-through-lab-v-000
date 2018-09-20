@@ -15,9 +15,9 @@ class Patient
     Appointment.all.select{|appointment| appointment.patient == self}
   end
   
-  ef self.all
+  def self.all
     @@all
-  endd
+  end
 end
     
     
